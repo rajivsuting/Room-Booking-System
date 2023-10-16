@@ -33,6 +33,7 @@ public class Room {
 	private String description;
 	private double price;
 	private String location;
+	@Column(columnDefinition = "LONGTEXT")
 	private String imageUrl;
 	
 	
